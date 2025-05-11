@@ -163,3 +163,7 @@ p {
   color: var(--main-text);
   font-family: "Roboto", sans-serif;
 }
+
+body.dark p {
+  color: var(--contrast-bg);
+}
