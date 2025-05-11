@@ -29,6 +29,38 @@
         <i id="icon" class="ph-fill ph-moon"></i>
       </button>
     </header>
+
+    <main>
+      <section class="text">
+        <h1>Contador regressivo</h1>
+        <p>Defina o tempo, foque e vá!</p>
+      </section>
+
+      <section class="timer">
+        <div id="hour"></div>
+        <div class="separator">
+          <div></div>
+          <div></div>
+        </div>
+        <div id="minute"></div>
+        <div class="separator">
+          <div></div>
+          <div></div>
+        </div>
+        <div id="second"></div>
+      </section>
+
+      <input type="number" id="inputMinutos" class="inputMinutos" placeholder="Minutos..." min="1">
+
+      <section class="btns">
+        <button class="btnPrimary" id="btnStart">Começar</button>
+        <button id="btnPause">Pausar</button>
+        <button id="btnReset">Resetar</button>
+      </section>
+
+      <p class="messageStatus" id="messageStatus"></p>
+    </main>
+
   </div>
 
   
