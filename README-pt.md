@@ -1,3 +1,5 @@
+![preview-desktop](./src/screenshots/preview-desktop.png)
+
 # ⏰ Contador regressivo
 Um contador regressivo (timer) básico com **HTML**, **CSS** e **JavaScript** puros. Desenvolvido como exercício de manipulação do DOM, eventos, estados e boas práticas layout responsivo para projetos front-end.
 
