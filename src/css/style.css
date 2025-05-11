@@ -137,10 +137,15 @@ main {
 }
 
 .inputMinutos {
-  border: 2px solid var(--border);
+  border: 1px solid var(--border);
   padding: 0.875rem 1rem;
   width: 100%;
   border-radius: 0.5rem;
+  background-color: transparent;
+}
+
+body.dark .inputMinutos {
+  border: 1px solid var(--secundary-text);
 }
 
 .inputMinutos::placeholder {
@@ -166,4 +171,11 @@ p {
 
 body.dark p {
   color: var(--contrast-bg);
+}
+
+
+body.dark #hour, 
+body.dark #minute, 
+body.dark #second {
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
 }
